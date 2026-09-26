@@ -4,14 +4,16 @@ My path from mechanical engineer to data analysis, ML, deep learning, computer v
 
 ## Roadmap
 
-| Phase | Months | Focus | Projects |
-|---|---|---|---|
-| 0 | 1 | Python, Git, math refresh | Plot my own lab data |
-| 1 | 2–3 | Data analysis (pandas, numpy, matplotlib) | Thesis torque–preload EDA; one Kaggle dataset report |
-| 2 | 4–6 | Classical ML (scikit-learn) | ML vs. physics model for preload; Kaggle tabular comp |
-| 3 | 7–9 | Deep learning (PyTorch) | Dog-breed classifier from scratch; 1D-CNN on sensor signals |
-| 4 | 10–12 | Computer vision (OpenCV, YOLO) | Camera calibration + mm measurement; custom YOLO on RPi |
-| 5 | 13+ | Robotics & state estimation (ROS 2, Kalman, SLAM) | IMU+encoder Kalman filter; ROS 2 rover with LiDAR SLAM |
+Full plan with resources and checkpoints: [ROADMAP.md](ROADMAP.md)
+
+| Phase | Months | Software | Hardware (⚡) | Key projects |
+|---|---|---|---|---|
+| 0 | 1 | Python, Git, math refresh | ESP32-S3 basics | Plot lab data; ESP32 hello |
+| 1 | 2–3 | Data analysis | ESP32 sensors + Wi-Fi | Thesis EDA; ⚡ wireless load-cell logger |
+| 2 | 4–6 | Classical ML | IMU, FreeRTOS | ML vs. physics model; ⚡ motion classifier |
+| 3 | 7–9 | Deep learning | TinyML on ESP32-S3 | Dog breeds from scratch; ⚡ on-device gesture model |
+| 4 | 10–12 | Computer vision | XIAO camera, Pi 5 | Camera measurement; custom YOLO; ⚡ edge vision |
+| 5 | 13–18 | Robotics & state estimation | STM32, micro-ROS, Pi/Jetson | Kalman filter; ⚡ motor PID; 🏁 capstone rover |
 
 Rule: 70% building, 30% courses.
 
