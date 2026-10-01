@@ -27,4 +27,4 @@ pip install -r requirements.txt
 
 ## Log
 
-- **Week 1:** environment set up, first plot (`week01/`).
+- **Week 1:** environment set up, first plot (`week01/`). Switched to Google Colab for pandas/ML (Smart App Control blocks it locally); first notebook `week01/torque_preload.ipynb`.
